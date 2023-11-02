@@ -1,0 +1,76 @@
+* {
+     box-sizing: border-box;
+     margin: 0;
+     font-family: 'Poppins', sans-serif;
+     font-weight: 400;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+   /* padding: 0 32px;*/
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: space-between;
+    width: 100%;
+}
+/*.flex_second {
+    display: flex;
+    padding: 30px;
+}*/
+.map {
+    width: 30%;
+}
+a {
+    text-decoration: none;
+    color: #5E5D5D;
+}
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+h2{
+    font-size: 34.832px;
+    font-weight: 600;
+    color: #5E5D5D;
+}
+.para {
+    font-size: 14px;
+    color: #5E5D5D;
+    font-weight: 350;
+}
+.para_next {
+    font-size: 17px;
+    color: #5E5D5D;
+    font-weight: 350;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #f5f8fa;
+}
+input[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #f5f8fa;
+}
+.required::after {
+    content: ' *';
+    color: red;
+}
+.submit{
+    background-color: #3775b5;
+    padding:12px 24px;
+    border: none;
+}
