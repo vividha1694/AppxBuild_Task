@@ -7,21 +7,16 @@
 .container {
     max-width: 1200px;
     margin: 0 auto;
-   /* padding: 0 32px;*/
 }
 .flex {
     display: flex;
     flex-wrap: wrap;
     padding: 30px;
-    justify-content: space-between;
-    width: 100%;
+    /*justify-content: space-between;*/
 }
-/*.flex_second {
-    display: flex;
-    padding: 30px;
-}*/
 .map {
     width: 30%;
+    padding: 30px;
 }
 a {
     text-decoration: none;
@@ -39,12 +34,12 @@ h2{
 .para {
     font-size: 14px;
     color: #5E5D5D;
-    font-weight: 350;
+    font-weight: 400;
 }
 .para_next {
     font-size: 17px;
     color: #5E5D5D;
-    font-weight: 350;
+    font-weight: 400;
 }
 
 input[type=text], select {
