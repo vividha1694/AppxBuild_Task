@@ -14,7 +14,7 @@
 }
 .map {
     width: 30%;
-    padding: 30px;
+    padding: 0 30px 0 0;
 }
 a {
     text-decoration: none;
