@@ -1,0 +1,76 @@
+* {
+     box-sizing: border-box;
+     margin: 0;
+     font-family: 'Poppins', sans-serif;
+     font-weight: 400;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #2b2f38;
+}
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #5E5D5D;
+}
+.para {
+    font-size: 14px;
+    color: #5E5D5D;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px;
+}
+.para_next {
+    font-size: 15px;
+    color: #5E5D5D;
+    font-weight: 400;
+}
+.flex {
+    display: flex;
+ }
+ .basis {
+     flex: 50%;
+     padding: 30px;
+ }
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #f5f8fa;
+}
+input[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #f5f8fa;
+}
+textarea[name=information] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #f5f8fa;
+}
+.required::after {
+    content: ' *';
+    color: red;
+}
+.submit{
+    background-color: #3775b5;
+    padding:12px 24px;
+    border: none;
+    color: #f5f8fa;
+}
