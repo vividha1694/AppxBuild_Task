@@ -11,8 +11,8 @@
 .flex {
     display: flex;
     flex-wrap: wrap;
-    padding: 30px;
-    /*justify-content: space-between;*/
+    /* padding: 30px;
+    justify-content: space-between;*/
 }
 .map {
     width: 30%;
