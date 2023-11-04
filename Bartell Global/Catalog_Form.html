@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <style>
+      * {
+         box-sizing: border-box;
+         margin: 0;
+         font-family: 'Poppins', sans-serif;
+         font-weight: 400;
+      }
+      .container {
+         max-width: 1200px;
+         margin: 0 auto;
+      }
+
+      h1 {
+         font-size: 64px;
+         font-weight: 700;
+         color: #2b2f38;
+         margin-bottom: 30px;
+      }
+
+      h2 {
+         font-size: 30px;
+         font-weight: 600;
+         color: #5E5D5D;
+      }
+
+      .para {
+         font-size: 13px;
+         color: #5E5D5D;
+         font-weight: 400;
+      }
+
+      input[type=text],
+      select {
+         width: 100%;
+         padding: 12px 20px;
+         margin: 8px 0;
+         display: inline-block;
+         border: 1px solid #ccc;
+         box-sizing: border-box;
+         background-color: #f5f8fa;
+      }
+
+      input[type=tel] {
+         width: 100%;
+         padding: 12px 20px;
+         margin: 8px 0;
+         display: inline-block;
+         border: 1px solid #ccc;
+         box-sizing: border-box;
+         background-color: #f5f8fa;
+      }
+
+      textarea[name=information] {
+         width: 100%;
+         padding: 12px 20px;
+         margin: 8px 0;
+         display: inline-block;
+         border: 1px solid #ccc;
+         box-sizing: border-box;
+         background-color: #f5f8fa;
+      }
+
+      .required::after {
+         content: ' *';
+         color: red;
+      }
+
+      .equipment {
+         color: #33475b;
+         font-size: 13px;
+         font-weight: 400;
+         align-items: center;
+      }
+      
+      .submit {
+         background-color: #3775b5;
+         padding: 12px 24px;
+         border: none;
+         color: #f5f8fa;
+         margin-bottom: 50px;
+      }
+      
+   </style>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200&display=swap"
+      rel="stylesheet">
+</head>
+
+<body class="container">
+   <div>
+      <form>
+         <h1>CATALOG</h1>
+
+         <label class="required" for="fname">First Name</label><br>
+            <input type="text"><br>
+         <label class="required" for="lname">Last Name</label><br>
+            <input type="text"><br>
+         <label for="business name">Business Name</lable><br>
+            <input type="text"><br>
+         <label class="required" for="email">Email</label><br>
+            <input type="text"><br>
+         <label class="required" for="cname">Company Name</label><br>
+            <input type="text"><br>
+         <label for="phone num">Phone Number</label><br>
+            <input type="tel"><br>
+         <label class="required" for="city">City</label><br>
+            <input type="text"><br>
+         <label class="required" for="state">State</label><br>
+         <select name="" id="">
+            <option></option>
+            <option value="andhra pradesh">Andhra Pradesh</option>
+            <option value="arunachal pradesh">Arunacha Pradesh</option>
+            <option value="assam">Assam</option>
+            <option value="bihar">Bihar</option>
+            <option value="chhattisgarh">Chhattisgarh</option>
+            <option value="goa">Goa</option>
+            <option value="gujarat">Gujarat</option>
+            <option value="haryana">Haryana</option>
+            <option value="himachal pradesh">Himachal Pradesh</option>
+            <option value="jammu & kashmir">Jammu & Kashmir</option>
+            <option value="jharkhand">Jharkhand</option>
+            <option value="karnataka">Karnataka</option>
+            <option value="kerala">Kerala</option>
+            <option value="madhya pradesh">Madhya Pradesh</option>
+            <option value="maharashta">Maharashtra</option>
+            <option value="manipur">Manipur</option>
+            <option value="meghalaya">Meghalaya</option>
+            <option value="mizoram">Mizoram</option>
+            <option value="nagaland">Nagaland</option>
+            <option value="odisha">Odisha</option>
+            <option value="punjab">Punjab</option>
+            <option value="rajasthan">Rajasthan</option>
+            <option value="sikkim">Sikkim</option>
+            <option value="tamil nadu">Tamil Nadu</option>
+            <option value="telangana">Telangana</option>
+            <option value="tripura">Tripura</option>
+            <option value="uttar pradesh">Uttar Pradesh</option>
+            <option value="uttarakhand">Uttarakhand</option>
+            <option value="west bengal">West Bengal</option>
+         </select><br><br>
+
+         <div class="equipment">
+            <p class="para">What equipment are you looking for? (check all that apply)</p>
+            <input type="checkbox">
+            <label for="name"> Power Trowels</label><br>
+            <input type="checkbox">
+            <label for="name"> Compaction</label><br>
+            <input type="checkbox">
+            <label for="name"> Mixers</label><br>
+            <input type="checkbox">
+            <label for="name"> Saws - iQ Power Tools</label><br>
+            <input type="checkbox">
+            <label for="name"> Saws - Bartell Global</label><br>
+            <input type="checkbox">
+            <label for="name"> Buggies</label><br>
+            <input type="checkbox">
+            <label for="name"> Screed</label><br>
+            <input type="checkbox">
+            <label for="name"> Scarifiers</label><br>
+            <input type="checkbox">
+            <label for="name"> Floor Removal</label><br>
+            <input type="checkbox">
+            <label for="name"> Shotblasters</label><br>
+            <input type="checkbox">
+            <label for="name"> Grinders</label><br>
+            <input type="checkbox">
+            <label for="name"> Generators</label><br>
+            <input type="checkbox">
+            <label for="name"> Material Spreaders</label><br>
+            <input type="checkbox">
+            <label for="name"> Dust Collectors</label><br>
+            <input type="checkbox">
+            <label for="name"> General - Construction Equipment</label><br>
+            <input type="checkbox">
+            <label for="name"> General - Surface Prep Equipment</label><br>
+            <input type="checkbox">
+            <label for="name"> Diamond Blades & Bits</label><br>
+            <input type="checkbox">
+            <label for="name"> Tooling, Accessories, Parts, & Consumables</label><br><br>
+
+            <p class="para">Please check the box below to indicate your consent to allow Bartell Global to collect your contact info and get back to you with the information you have requested.</p><br>
+            <input type="checkbox">
+           <label for="name" class="required"> Consent</label><br><br>
+        </div>
+            <input class="submit" type="submit" value="Submit">
+        
+      </form>
+</body>
+</html>
